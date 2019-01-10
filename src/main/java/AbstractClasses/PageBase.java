@@ -1,17 +1,18 @@
 package AbstractClasses;
 
 import Helpers.DriverHelper;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 public abstract class PageBase {
+    protected String url = null;
+
 
     public DriverHelper dh;
 
-    public void test()
+    protected void getUrl()
     {
-        dh.waitForElementToBeClickable(By.xpath(""));
+        System.out.println("Attempting navigate to " + url);
+        dh.getUrl(url);
     }
 
 

@@ -4,11 +4,12 @@ import AbstractClasses.PageBase;
 import Helpers.DriverHelper;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage extends PageBase {
+public class Login extends PageBase {
 
-   public LoginPage (WebDriver driver) {
+   public Login(WebDriver driver) {
 
         dh = new DriverHelper(driver);
+        dh.getUrl(url = url + "auth/login");
     }
 
 

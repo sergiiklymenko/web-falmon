@@ -61,4 +61,8 @@ public class DriverHelper {
     {
         waitForElementToBeClickable(locator,"Unable to click on Element",5);
     }
+
+    public void getUrl(String url) {
+        driver.get(url);
+    }
 }
