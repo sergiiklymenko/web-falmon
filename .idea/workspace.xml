@@ -2,375 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8aa3577-9145-4836-88ad-9e16c2948935" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/angular.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/coverage/file1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/e2e/app.e2e-spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/e2e/app.po.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/e2e/tsconfig.e2e.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/karma.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/protractor.conf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/proxy.conf.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/reports/lint.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/app-load.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/app-load.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/app.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/app.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/app.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/app.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/cardinal/cardinal-init.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/cardinal/cardinal-init.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/cardinal/cardinal-init.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/cardinal/cardinal-init.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-confirmation/checkout-confirmation.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-confirmation/checkout-confirmation.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-confirmation/checkout-confirmation.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-confirmation/checkout-confirmation.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-confirmation/interact-promo/interact-promo.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-confirmation/interact-promo/interact-promo.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-confirmation/interact-promo/interact-promo.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-confirmation/interact-promo/interact-promo.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-create-pin/checkout-create-pin.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-create-pin/checkout-create-pin.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-create-pin/checkout-create-pin.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-create-pin/checkout-create-pin.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-login/checkout-login.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-login/checkout-login.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-login/checkout-login.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/checkout-login/checkout-login.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/constants/card-types.constant.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/constants/pattern.constant.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/assignment-details.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/assignment-details.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/assignment-details.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/assignment-details.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/assignment-entitlement.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/assignment-entitlement.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/assignment-entitlement.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/assignment-entitlement.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/entitlements.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/entitlements.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/entitlements.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/entitlements.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/entitlements.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/entitlements-component/guest.interface.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/full-calendar-component/full-calendar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/full-calendar-component/full-calendar.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/full-calendar-component/full-calendar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/full-calendar-component/full-calendar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/layout/footer/footer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/layout/footer/footer.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/layout/footer/footer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/layout/footer/footer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/layout/header/header.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/layout/header/header.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/layout/header/header.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/layout/header/header.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/mini-calendar-component/mini-calendar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/mini-calendar-component/mini-calendar.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/mini-calendar-component/mini-calendar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/mini-calendar-component/mini-calendar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/mobile-apps/mobile-compare-annual-pass-table.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/mobile-apps/mobile-compare-annual-pass-table.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/mobile-apps/mobile-compare-annual-pass-table.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/mobile-apps/mobile-compare-annual-pass-table.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/payment/payment.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/payment/payment.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/payment/payment.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/payment/payment.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/pricing-calendar-component/pricing-calendar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/pricing-calendar-component/pricing-calendar.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/pricing-calendar-component/pricing-calendar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/pricing-calendar-component/pricing-calendar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/_card-steps.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-banner.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-banner.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-banner.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-banner.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-bmg-tier-step.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-bmg-tier-step.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-bmg-tier-step.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-bmg-tier-step.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-details.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-details.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-details.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-details.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-horizontal.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-horizontal.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-horizontal.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-horizontal.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-marketing-teaser.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-marketing-teaser.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-marketing-teaser.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-marketing-teaser.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-modal-message.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-modal-message.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-modal-message.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-modal-message.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-region.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-region.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-region.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-region.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-select-step.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-select-step.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-select-step.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-select-step.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-sku-quantity-date-step.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-sku-quantity-date-step.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-sku-quantity-date-step.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-sku-quantity-date-step.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-time-step.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-time-step.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-time-step.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-time-step.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-vb-map-step.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-vb-map-step.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-vb-map-step.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card-vb-map-step.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/card.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/compare-annual-pass-table.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/compare-annual-pass-table.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/compare-annual-pass-table.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/compare-annual-pass-table.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/days-filter.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/days-filter.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/days-filter.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/days-filter.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/interactive-progress-bar.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/interactive-progress-bar.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/interactive-progress-bar.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/interactive-progress-bar.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/page-bottom-promo.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/page-bottom-promo.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/page-bottom-promo.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/page-bottom-promo.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/parks-filter.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/parks-filter.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/parks-filter.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/parks-filter.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/product-tile.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/product-tile.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/product-tile.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/product-tile.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/product-total-pricing-section.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/product-total-pricing-section.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/product-total-pricing-section.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/product-total-pricing-section.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/quantity-filter.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/quantity-filter.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/quantity-filter.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/quantity-filter.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/resident-filter.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/resident-filter.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/resident-filter.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/resident-filter.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/vb-location-map.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/vb-location-map.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/vb-location-map.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/vb-location-map.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/whitelabel-page-header-region.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/whitelabel-page-header-region.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/whitelabel-page-header-region.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/whitelabel-page-header-region.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/whitelabel-page.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/whitelabel-page.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/whitelabel-page.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/products/whitelabel-page.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/adobe-dtm/adobe-dtm.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/accordion-component/accordion-set.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/accordion-component/accordion-set.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/accordion-component/accordion-set.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/accordion-component/accordion-set.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/accordion-component/accordion.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/accordion-component/accordion.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/accordion-component/accordion.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/accordion-component/accordion.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/flex-pay-contract-legals/flex-pay-contract-legals.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/flex-pay-contract-legals/flex-pay-contract-legals.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/flex-pay-contract-legals/flex-pay-contract-legals.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/flex-pay-contract-legals/flex-pay-contract-legals.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/flex-pay-contract-modal/flex-pay-contract-modal.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/flex-pay-contract-modal/flex-pay-contract-modal.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/flex-pay-contract-modal/flex-pay-contract-modal.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/flex-pay-contract-modal/flex-pay-contract-modal.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/guest-number/guest-number.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/guest-number/guest-number.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/guest-number/guest-number.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/components/guest-number/guest-number.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/models/calendar.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/pipes/filter.pipe.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/pipes/filter.pipe.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/pipes/keys.pipe.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/pipes/keys.pipe.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/addtocart-message.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/addtocart-message.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/app-data.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/app-data.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/common-utility.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/common-utility.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/guest-utility.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/guest-utility.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/metric-logger.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/metric-logger.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/ms-address.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/ms-address.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/ms-cp/ms-cp.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/ms-cp/ms-cp.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/pin-utility.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/pin-utility.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/share-data.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/share-data.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/shop/cart.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/shop/cart.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/shop/pay.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/shop/pay.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/shop/pricing-inventory.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/shop/pricing-inventory.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/tcm-data-utility.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/tcm-data-utility.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/whitelabel-config.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/whitelabel-config.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/whitelabel-message.service.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/services/whitelabel-message.service.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shared/shared.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/amex-promo.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/amex-promo.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/amex-promo.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/amex-promo.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page-item.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page-item.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page-item.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page-item.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page-promo-offer.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page-promo-offer.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page-promo-offer.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page-promo-offer.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page.component.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page.component.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/app/shopping-cart/cart-page.component.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/.gitkeep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/2967B9A0E7E4EDC83.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/2967B9A0E7E4EDC83.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/6330A3369D395850E.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/6330A3369D395850E.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/8F62100A3BB6391A1.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/8F62100A3BB6391A1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/9F83F41298FA3D4A1.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/9F83F41298FA3D4A1.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/CF9B3AC6C5090E643.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/CF9B3AC6C5090E643.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/DA192960645B30FA9.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/gotham/DA192960645B30FA9.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/uo_ui-icons/selection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/uo_ui-icons/uo_ui-icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/uo_ui-icons/uo_ui-icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/uo_ui-icons/uo_ui-icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/fonts/uo_ui-icons/uo_ui-icons.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/_global.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/_settings.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_breakpoint.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_color.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_direction.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_flex.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_math.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_selector.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_unit.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_util.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/foundation-sites/util/_value.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/apple-touch-icon-114x114-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/apple-touch-icon-144x144-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/apple-touch-icon-57x57-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/apple-touch-icon-72x72-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/bg-datepicker_036ce2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/bg-number-spinner_036ce2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/bg-select_036ce2.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/bg-select_036ce3.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/bg-select_333333.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/bg-select_ffffff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/bg-select_ffffff.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/grey_grad.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/css/grey_grad2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/images/spinner.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/scripts/adobeTags.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/assets/scripts/surveyinvite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/config/constants.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/config/defaultValues.constant.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/config/relativeUrls.constant.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/config/routing.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/config/sourceIds.constant.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/environments/environment.production.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/environments/environment.qa.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/environments/environment.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/environments/udeploy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/modules/cart.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/modules/product.module.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/polyfills.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/_font-face.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_display.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_feedback.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/_typography.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/helpers/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/mixins/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/mixins/_borders.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/mixins/_breakpoints.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/mixins/_utils.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/mixins/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/variables/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/variables/_colors.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/variables/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/variables/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/sass/variables/index.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/styles.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/test.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/tsconfig.app.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/tsconfig.spec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/src/typings.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app/tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../build-prod.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/amex.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/certificates/amex-auth-token.priv.pem" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../config/udeploy.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../jenkins/Jenkinsfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../middlewares/log-requests.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/amex/promo.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/local/locweb.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../routes/metric/logger.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tsconfig.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../tslint.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../util/logger.ts" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AbstractClasses/PageBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Helpers/DriverHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/PageObjects/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/FalmonHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite/FalmonHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestSuite/FalmonHome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestSuite/FalmonHome.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -384,45 +23,57 @@
     <session id="-1790293177">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="1" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1085" />
+          <entry key="java" value="2706" />
+          <entry key="kt" value="43" />
           <entry key="xml" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1085" />
+          <entry key="JAVA" value="2706" />
+          <entry key="Kotlin" value="43" />
           <entry key="XML" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="2" />
+          <entry key="class" value="4" />
+          <entry key="java" value="8" />
+          <entry key="kt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="2" />
+          <entry key="CLASS" value="4" />
+          <entry key="JAVA" value="8" />
+          <entry key="Kotlin" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="495">
+              <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -430,8 +81,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            <state relative-caret-position="105">
+              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/FalmonHome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -440,10 +100,38 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/FalmonHome.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/DriverHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#466#467#0" expanded="true" />
+                <element signature="e#501#502#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/AbstractClasses/PageBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#325#326#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -456,19 +144,36 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sa</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/TestSuite/FalmonHome.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseTest/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Helpers/DriverHkotl.kt" />
+        <option value="$PROJECT_DIR$/src/test/java/excercises/ReverseString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PageObjects/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AbstractClasses/PageBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestSuite/FalmonHome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Helpers/DriverHelper.java" />
       </list>
     </option>
   </component>
@@ -480,7 +185,7 @@
     </option>
     <option name="enabledProfiles">
       <list>
-        <option value="Browser: Firefox" />
+        <option value="Browser: Chrome" />
       </list>
     </option>
   </component>
@@ -502,7 +207,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="960" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -510,7 +215,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -518,61 +223,19 @@
               <item name="myuniverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="uni-automation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="myuniverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-automation" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myuniverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myuniverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myuniverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myuniverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myuniverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BaseTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myuniverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="uni-automation" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestSuite" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546012728583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547155803579" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -605,6 +268,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FalmonHome" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="uni-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestSuite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestSuite" />
+      <option name="MAIN_CLASS_NAME" value="TestSuite.FalmonHome" />
+      <option name="METHOD_NAME" value="HomepageTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FalmonHome.HomepageTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uni-automation" />
       <extension name="coverage">
@@ -626,11 +306,15 @@
     <list>
       <item itemvalue="TestNG.BaseTest.trialTest" />
       <item itemvalue="TestNG.FalmonHome.HomepageTest" />
+      <item itemvalue="TestNG.FalmonHome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FalmonHome" />
         <item itemvalue="TestNG.FalmonHome.HomepageTest" />
         <item itemvalue="TestNG.BaseTest.trialTest" />
+        <item itemvalue="TestNG.FalmonHome.HomepageTest" />
+        <item itemvalue="TestNG.FalmonHome" />
       </list>
     </recent_temporary>
   </component>
@@ -648,12 +332,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseTest_trialTest - 2018.12.20 at 14h 56m 42s.xml">
-      <configuration name="BaseTest.trialTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FalmonHome_HomepageTest - 2018.12.21 at 16h 50m 01s.xml">
-      <configuration name="FalmonHome.HomepageTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="FalmonHome_HomepageTest - 2018.12.21 at 16h 51m 14s.xml">
       <configuration name="FalmonHome.HomepageTest" configurationId="TestNG" />
     </history-entry>
@@ -672,11 +350,23 @@
     <history-entry file="FalmonHome_HomepageTest - 2018.12.21 at 17h 06m 12s.xml">
       <configuration name="FalmonHome.HomepageTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="FalmonHome_HomepageTest - 2019.01.10 at 16h 07m 44s.xml">
+      <configuration name="FalmonHome.HomepageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FalmonHome_HomepageTest - 2019.01.10 at 16h 09m 44s.xml">
+      <configuration name="FalmonHome.HomepageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FalmonHome_HomepageTest - 2019.01.10 at 16h 10m 34s.xml">
+      <configuration name="FalmonHome.HomepageTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FalmonHome_HomepageTest - 2019.01.10 at 16h 17m 54s.xml">
+      <configuration name="FalmonHome.HomepageTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="960" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="958" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21489622" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22954823" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -684,13 +374,41 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48498845" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24249423" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290993" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="7" weight="0.20695971" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22222222" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290993" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4856487" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32949308" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24249423" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3295063" />
@@ -702,23 +420,84 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.20695971" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Override.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="50" column="18" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.4.0/selenium-support-3.4.0.jar!/org/openqa/selenium/support/ui/WebDriverWait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/DriverHkotl.kt" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/excercises/ReverseString.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/2.2.5/webdrivermanager-2.2.5.jar!/io/github/bonigarcia/wdm/WebDriverManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2901">
+          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/bonigarcia/webdrivermanager/2.2.5/webdrivermanager-2.2.5.jar!/io/github/bonigarcia/wdm/ChromeDriverManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="495">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        <state relative-caret-position="105">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Helpers/DriverHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/AbstractClasses/PageBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PageObjects/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -727,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestSuite/FalmonHome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="300">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -738,9 +517,81 @@
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>uni-automation</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: cglib:cglib-nodep:3.2.4</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
