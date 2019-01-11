@@ -12,7 +12,7 @@ public abstract class PageBase {
     protected void getUrl()
     {
         System.out.println("Attempting navigate to " + url);
-        dh.getUrl(url);
+        dh.getURL(url);
     }
 
 
