@@ -1,5 +1,6 @@
 package BaseTest;
 
+import Helpers.LocalDriverManager;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +17,6 @@ public class BaseTest {
 
     private static DesiredCapabilities capabilities = new DesiredCapabilities();
     private static String browser;
-    public static WebDriver driver;
 
     @BeforeSuite(alwaysRun = true)
     @Parameters({"browser"})
@@ -41,6 +41,7 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void beforeMethod() {
+        WebDriver driver = null;
         if (browser.toLowerCase().equals("chrome")) {
             ChromeDriverManager.getInstance().setup();
             driver = new ChromeDriver();
@@ -57,10 +58,11 @@ public class BaseTest {
             System.exit(0);
         }
          driver.manage().window().fullscreen();
+        LocalDriverManager.setWebDriver(driver);
     }
     @AfterMethod(alwaysRun = true)
     public void afterMethod () {
-        driver.quit();
+        LocalDriverManager.getDriver().quit();
     }
 
 

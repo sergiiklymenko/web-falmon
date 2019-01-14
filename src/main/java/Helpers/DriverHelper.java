@@ -11,17 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class DriverHelper {
 
     int defaultWaitTime = 20;
-    WebDriver driver;
-
-    public DriverHelper (WebDriver driver){
-       this.driver = driver;
-    }
-
-    private static ThreadLocal<WebDriver> webDriver = new ThreadLocal<WebDriver>();
-
-    public WebDriver getDriver() {
-        return webDriver.get();
-    }
+     WebDriver driver = LocalDriverManager.getDriver();
 
     public void click (By locator, String message ) {
     waitForElementToBeClickable(locator, message, defaultWaitTime);

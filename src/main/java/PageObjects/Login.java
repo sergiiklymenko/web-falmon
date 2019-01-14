@@ -1,14 +1,12 @@
 package PageObjects;
 
 import AbstractClasses.PageBase;
-import Helpers.DriverHelper;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 
 public class Login extends PageBase {
-    WebDriver driver
-   public Login(WebDriver driver) {
-        dh = new DriverHelper(driver);
+
+
+   public Login() {
         url = url + "auth/login";
     }
 
@@ -18,8 +16,8 @@ public class Login extends PageBase {
     }
 
     public Login isLoaded(){
-        dh.waitForElementToExist(By.xpath(""));
-
+       dh.waitForElementToExist(By.xpath("//div[@class='text-center']"));
+       return this;
     }
 
 }

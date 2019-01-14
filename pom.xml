@@ -68,8 +68,23 @@
             </plugins>
         </build>
     </profile>
+        <profile>
+            <id>Env: Prod</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <artifactId>maven-surefire-plugin</artifactId>
+                        <configuration>
+                            <systemPropertyVariables>
+                                <env>PROD</env>
+                                <domain>https://falmon.com/</domain>
+                            </systemPropertyVariables>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
     </profiles>
-
 
     <dependencies>
         <dependency>
