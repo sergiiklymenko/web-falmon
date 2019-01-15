@@ -11,13 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class DriverHelper {
 
     int defaultWaitTime = 20;
-    WebDriver driver;
-
-    public DriverHelper (WebDriver driver){
-       this.driver = driver;
-    }
-
-
+     WebDriver driver = LocalDriverManager.getDriver();
 
     public void click (By locator, String message ) {
     waitForElementToBeClickable(locator, message, defaultWaitTime);
@@ -62,7 +56,24 @@ public class DriverHelper {
         waitForElementToBeClickable(locator,"Unable to click on Element",5);
     }
 
-    public void getUrl(String url) {
+    public void waitForElementToExist(By locator) {
+        new WebDriverWait(driver,10).until(new ExpectedCondition<Boolean>() {
+            @Override
+            public Boolean apply (WebDriver webDriver){
+                return elementExist(locator);
+            }
+            @Override
+            public String toString() {
+                return "Element does not exist";
+            }
+        });
+    }
+
+    public Boolean elementExist(By locator) {
+        return driver.findElements(locator).size()>0;
+    }
+
+    public void getURL(String url) {
         driver.get(url);
     }
 }

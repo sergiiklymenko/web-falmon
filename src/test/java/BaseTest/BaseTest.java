@@ -1,5 +1,7 @@
 package BaseTest;
 
+import Helpers.LocalDriverManager;
+import Helpers.Session;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,13 +18,21 @@ public class BaseTest {
 
     private static DesiredCapabilities capabilities = new DesiredCapabilities();
     private static String browser;
-    public static WebDriver driver;
+    private static Session session = null;
 
     @BeforeSuite(alwaysRun = true)
-    @Parameters({"browser"})
+    @Parameters({"env", "domain", "browser", })
 
-    public void beforeSuite(String browser){
+    public void beforeSuite(String env, String domain, String browser){
+
+        if (env == null){
+            System.out.println("~~~ Please select Environment from Maven Profile ~~~");
+            System.exit(0);
+        }
+
+        session = new Session(domain);
         BaseTest.browser=browser;
+
 
         if (browser.toLowerCase().equals("chrome")){
             capabilities.setCapability("browserName", "Chrome");
@@ -41,6 +51,7 @@ public class BaseTest {
 
     @BeforeMethod(alwaysRun = true)
     public void beforeMethod() {
+        WebDriver driver = null;
         if (browser.toLowerCase().equals("chrome")) {
             ChromeDriverManager.getInstance().setup();
             driver = new ChromeDriver();
@@ -57,10 +68,11 @@ public class BaseTest {
             System.exit(0);
         }
          driver.manage().window().fullscreen();
+        LocalDriverManager.setWebDriver(driver);
     }
     @AfterMethod(alwaysRun = true)
     public void afterMethod () {
-        driver.quit();
+        LocalDriverManager.getDriver().quit();
     }
 
 
