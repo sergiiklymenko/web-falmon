@@ -7,7 +7,7 @@ public class Login extends PageBase {
 
 
    public Login() {
-        url = url + "auth/login";
+        url = url + "auth/login.html";
     }
 
     public Login get() {

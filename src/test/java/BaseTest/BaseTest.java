@@ -1,6 +1,7 @@
 package BaseTest;
 
 import Helpers.LocalDriverManager;
+import Helpers.Session;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -17,12 +18,21 @@ public class BaseTest {
 
     private static DesiredCapabilities capabilities = new DesiredCapabilities();
     private static String browser;
+    private static Session session = null;
 
     @BeforeSuite(alwaysRun = true)
-    @Parameters({"browser"})
+    @Parameters({"env", "domain", "browser", })
 
-    public void beforeSuite(String browser){
+    public void beforeSuite(String env, String domain, String browser){
+
+        if (env == null){
+            System.out.println("~~~ Please select Environment from Maven Profile ~~~");
+            System.exit(0);
+        }
+
+        session = new Session(domain);
         BaseTest.browser=browser;
+
 
         if (browser.toLowerCase().equals("chrome")){
             capabilities.setCapability("browserName", "Chrome");

@@ -1,6 +1,7 @@
 package AbstractClasses;
 
 import Helpers.DriverHelper;
+import Helpers.Session;
 
 
 public abstract class PageBase {
@@ -8,9 +9,11 @@ public abstract class PageBase {
     protected String domain = null;
     public DriverHelper dh;
 
+
     public PageBase (){
-        domain = getDomain();
+        domain = Session.getDomain().toLowerCase();
         url = domain;
+        dh = new DriverHelper();
     }
 
     public String getDomain()
