@@ -7,13 +7,12 @@ import Helpers.Session;
 public abstract class PageBase {
     protected String url = null;
     protected String domain = null;
-    public DriverHelper dh;
+    public DriverHelper dh = new DriverHelper();;
 
 
     public PageBase (){
         domain = Session.getDomain().toLowerCase();
         url = domain;
-        dh = new DriverHelper();
     }
 
     public String getDomain()
