@@ -11,6 +11,10 @@ public class LoginTest extends BaseTest {
 
         Login login = new Login();
         login.get();
+        login
+                .setLogin("sergiiklemenko@gmail.com")
+                .setPassword("Falmon123")
+                .clickLogin();
 
     }
 
