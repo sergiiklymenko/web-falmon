@@ -9,8 +9,7 @@ public class LoginTest extends BaseTest {
     @Test(enabled = true)
     public void LoginTest(){
 
-        Login login = new Login();
-        login.get();
+        Login login = new Login().get();
         login
                 .setLogin("sergiiklemenko@gmail.com")
                 .setPassword("Falmon123")
