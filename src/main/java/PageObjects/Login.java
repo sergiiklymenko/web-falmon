@@ -5,9 +5,11 @@ import org.openqa.selenium.By;
 
 public class Login extends PageBase {
 
-
-   public Login() {
-        url = url + "auth/login.html";
+    private String loginLoc = "//input[@name='email']";
+    private String passwordLoc ="//input[@name='password']";
+    private String loginBtnLoc = "//button[@type='submit' and contains(text(), 'Log')]";
+    public Login() {
+        url = url + "auth/login";
     }
 
     public Login get() {
@@ -18,6 +20,21 @@ public class Login extends PageBase {
     public Login isLoaded(){
        dh.waitForElementToExist(By.xpath("//div[@class='text-center']"));
        return this;
+    }
+
+    public Login setLogin(String login) {
+       dh.setText(loginLoc, login);
+       return this;
+    }
+
+    public Login setPassword(String password){
+        dh.setText(passwordLoc, password);
+        return this;
+    }
+
+    public Login clickLogin(){
+        dh.click(loginBtnLoc);
+        return this;
     }
 
 }

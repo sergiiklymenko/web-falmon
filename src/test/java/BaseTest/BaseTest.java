@@ -8,10 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.*;
 import io.github.bonigarcia.wdm.ChromeDriverManager;
 
 public class BaseTest {
@@ -23,10 +20,10 @@ public class BaseTest {
     @BeforeSuite(alwaysRun = true)
     @Parameters({"env", "domain", "browser", })
 
-    public void beforeSuite(String env, String domain, String browser){
+    public void beforeSuite(@Optional("") String env, @Optional("") String domain, String browser){
 
-        if (env == null){
-            System.out.println("~~~ Please select Environment from Maven Profile ~~~");
+        if (env.equals("")){
+            System.out.println("~~~~~~~ Please select Environment from Maven Profile ~~~~~~~");
             System.exit(0);
         }
 
