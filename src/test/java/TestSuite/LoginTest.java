@@ -7,14 +7,12 @@ import org.testng.annotations.Test;
 public class LoginTest extends BaseTest {
 
     @Test(enabled = true)
-    public void LoginTest(){
-
+    public void LoginTrial(){
         Login login = new Login().get();
         login
                 .setLogin("sergiiklemenko@gmail.com")
                 .setPassword("Falmon123")
                 .clickLogin();
-
     }
 
 }

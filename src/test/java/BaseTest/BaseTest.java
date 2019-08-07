@@ -3,6 +3,7 @@ package BaseTest;
 import Helpers.LocalDriverManager;
 import Helpers.Session;
 import io.github.bonigarcia.wdm.FirefoxDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -50,10 +51,10 @@ public class BaseTest {
     public void beforeMethod() {
         WebDriver driver = null;
         if (browser.toLowerCase().equals("chrome")) {
-            ChromeDriverManager.getInstance().setup();
+            WebDriverManager.chromedriver().setup();
             driver = new ChromeDriver();
         } else if (browser.toLowerCase().equals("firefox")) {
-            FirefoxDriverManager.getInstance().setup();
+            WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
 
         } else if (browser.toLowerCase().equals("safari")) {

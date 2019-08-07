@@ -33,6 +33,7 @@ public class Login extends PageBase {
     }
 
     public Login clickLogin(){
+        dh.waitForElementToBeClickable(By.xpath(loginBtnLoc));
         dh.click(loginBtnLoc);
         return this;
     }
