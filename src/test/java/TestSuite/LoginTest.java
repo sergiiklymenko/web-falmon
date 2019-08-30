@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
 
-    @Test(enabled = true)
+    @Test(enabled = true, groups = {"Smoke"})
     public void LoginTrial(){
         Login login = new Login().get();
         login

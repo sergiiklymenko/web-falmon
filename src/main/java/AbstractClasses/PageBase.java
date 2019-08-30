@@ -25,7 +25,4 @@ public abstract class PageBase {
         System.out.println("Attempting navigate to " + url);
         dh.getURL(url);
     }
-
-
-
 }

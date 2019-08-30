@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c8aa3577-9145-4836-88ad-9e16c2948935" name="Default Changelist" comment="Tweak the Java Lang">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="c8aa3577-9145-4836-88ad-9e16c2948935" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/falmonConfig/falmon-smoke-test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AbstractClasses/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AbstractClasses/PageBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PageObjects/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PageObjects/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TestSuite/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestSuite/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/BaseTest/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaseTest/BaseTest.class" afterDir="false" />
     </list>
@@ -42,8 +41,9 @@
     </option>
     <option name="enabledProfiles">
       <list>
-        <option value="Env: Prod" />
         <option value="Browser: Chrome" />
+        <option value="Env: Prod" />
+        <option value="test: falmon-smoke" />
       </list>
     </option>
   </component>
@@ -53,10 +53,16 @@
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547670333426" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/bbaEmeaConfig" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/bbaEmeaConfig" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -70,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest.LoginTrial (1)">
+  <component name="RunManager" selected="TestNG./Users/sklymenko/IdeaProjects/web-falmon/src/test/resources/falmonConfig/falmon-smoke-test.xml">
     <configuration name="FalmonHome" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="uni-automation" />
       <extension name="coverage">
@@ -83,24 +89,6 @@
       <option name="MAIN_CLASS_NAME" value="TestSuite.FalmonHome" />
       <option name="METHOD_NAME" value="HomepageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FalmonHome.HomepageTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="uni-automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="TestSuite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="TestSuite" />
-      <option name="MAIN_CLASS_NAME" value="TestSuite.FalmonHome" />
-      <option name="METHOD_NAME" value="HomepageTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -180,20 +168,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/sklymenko/IdeaProjects/web-falmon/src/test/resources/falmonConfig/falmon-smoke-test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="web-falmon" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/falmonConfig/falmon-smoke-test.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.FalmonHome.HomepageTest" />
       <item itemvalue="TestNG.FalmonHome" />
       <item itemvalue="TestNG.LoginTest.LoginTrial" />
       <item itemvalue="TestNG.LoginTest.LoginTrial (1)" />
       <item itemvalue="TestNG.LoginTest.LoginTrial (2)" />
+      <item itemvalue="TestNG./Users/sklymenko/IdeaProjects/web-falmon/src/test/resources/falmonConfig/falmon-smoke-test.xml" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/sklymenko/IdeaProjects/web-falmon/src/test/resources/falmonConfig/falmon-smoke-test.xml" />
         <item itemvalue="TestNG.LoginTest.LoginTrial (1)" />
         <item itemvalue="TestNG.LoginTest.LoginTrial (2)" />
         <item itemvalue="TestNG.LoginTest.LoginTrial" />
         <item itemvalue="TestNG.LoginTest.LoginTrial" />
-        <item itemvalue="TestNG.FalmonHome" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1547576021517</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Refactor maven plugin version, tests adjustments">
+      <created>1565199846859</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565199846859</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -236,6 +241,37 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Tweak the Java Lang" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tweak the Java Lang" />
+    <MESSAGE value="Refactor maven plugin version, tests adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor maven plugin version, tests adjustments" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/AbstractClasses/PageBase.java</url>
+          <line>22</line>
+          <properties class="AbstractClasses.PageBase" method="getUrl">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Helpers/Session.java</url>
+          <line>9</line>
+          <properties class="Helpers.Session" method="setDomain">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/AbstractClasses/PageBase.java</url>
+          <line>12</line>
+          <properties class="AbstractClasses.PageBase" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

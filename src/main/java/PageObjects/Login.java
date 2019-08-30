@@ -2,12 +2,18 @@ package PageObjects;
 
 import AbstractClasses.PageBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import java.util.List;
+import java.util.Set;
 
 public class Login extends PageBase {
 
     private String loginLoc = "//input[@name='email']";
     private String passwordLoc ="//input[@name='password']";
     private String loginBtnLoc = "//button[@type='submit' and contains(text(), 'Log')]";
+
     public Login() {
         url = url + "auth/login";
     }
@@ -23,7 +29,8 @@ public class Login extends PageBase {
     }
 
     public Login setLogin(String login) {
-       dh.setText(loginLoc, login);
+
+        dh.setText(loginLoc, login);
        return this;
     }
 
